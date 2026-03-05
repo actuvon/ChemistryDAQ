@@ -1,0 +1,1 @@
+See page 12 of the AD620 datasheet to find the equation that gives you the resistor value you need for Rg in order to achieve a given gain.
