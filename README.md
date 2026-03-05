@@ -1,12 +1,14 @@
 # Chemistry DAQ
-A data aquisition system designed for use with analytical chemistry equipment. Log analog DC voltage signals from capilary eletrophoresis systems, atomic absorption systems, and chromatography equipment. 
+A data aquisition system designed for use with analytical chemistry equipment. Log analog DC voltage signals from capilary eletrophoresis systems, atomic absorption systems, and chromatography equipment.  
+The data aquisition board has four different channels that can be configured to take in analog voltage signals as small as 0mV - 1mV up to 0V - 5V. The voltage vs time signal gets saved to an SD card and streamed over WiFi to anyone listening. Or... it will... when I do that...
 
 ### Files in this repo
-- **Components.md**: List all the different parts used in the project, describe them, label the connection points, and indicate which diagrams to look at to understand how they are used.
-- **./Components**: Files such as datasheets and other details relating to specific components.
-- **Bill of Materials.md**: TODO: Provide purchasing information for all components.
 - **User Manual.md**: TODO: Instructions on how to use and maintain the completed device.
-- **./Images**: Photos or drawings, which are not diagrams.
+- **Components.md**: List all the different parts used in the project, describe them, label the connection points, and indicate which diagrams to look at to understand how they are used.
+- **./A. Component Details**: Files such as datasheets and other details relating to specific components.
+- **./B. Worksheets**: Excel worksheets used for various calculations during the design/build.
+- **./C. Images**: Photos or drawings, which are not diagrams.
+- **Bill of Materials.md**: TODO: Provide purchasing information for all components.
 
 ### Understanding the "Components.md" file
 - Each component is given a unique Component number that starts with the letter "C". For example, the amplifier module on channel two has the ID C1-2-2-1.
